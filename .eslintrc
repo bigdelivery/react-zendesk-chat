@@ -19,9 +19,9 @@
   "extends": ["eslint:recommended", "plugin:react/recommended"],
   "rules": {
     "no-multiple-empty-lines": ["error", { "max": 2 }],
-    
     "no-console": 0,
     "no-unreachable": 0,
-    "no-unused-vars": 0
+    "no-unused-vars": 0,
+    "no-extra-semi": 1,
   }
 }
